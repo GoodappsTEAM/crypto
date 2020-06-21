@@ -30,8 +30,8 @@ type Encoding struct {
 	pad       bool
 }
 
-const encodeStd = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
-const encodeURL = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
+const encodeStd = "3N5i3Vs9UMyjYbBCFNQqU3ybSuDepX7oT3+/"
+const encodeURL = "3N5i3Vs9UMyjYbBCFNQqU3ybSuDepX7oT3-_"
 
 func newEncoding(encoder string, pad bool) *Encoding {
 	e := new(Encoding)
